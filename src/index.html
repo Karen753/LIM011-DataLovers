@@ -2,13 +2,76 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8">
-    <title>Data Lovers</title>
+    <title>Data Lovers YO</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" />
   </head>
+  <header>
+     <img src="PokiPedia (1).png" alt="" id="logo">
+     
+     <select name="filtrar-tipo" id="filtrar-tipo" class="selectores">
+        <option>TIPO</option>
+        <option value="Water">AGUA</option>
+        <option value="Fire">FUEGO</option>
+        <option value="Grass">HIERBA</option>
+        <option value="Ground">SUELO</option>
+        <option value="Rock">ROCA</option>
+        <option value="Ice">HIELO</option>
+        <option value="Electric">ELECTRICO</option>
+        <option value="Dragon">DRAGON</option>
+        <option value="Ghost">FANTASMA</option>
+        <option value="Psychic">PSIQUICO</option>
+        <option value="Normal">NORMAL</option>
+        <option value="Fighting">LUCHA</option>
+        <option value="Poison">VENENO</option>
+        <option value="Bug">BICHO</option>
+        <option value="Flying">VOLADOR</option>
+      </select>
+      <select name="filtrar-debilidad" id="filtrar-debilidad" class="selectores">
+        <option>DEBILIDAD</option>
+        <option value="Water">AGUA</option>
+        <option value="Fire">FUEGO</option>
+        <option value="Grass">HIERBA</option>
+        <option value="Ground">SUELO</option>
+        <option value="Rock">ROCA</option>
+        <option value="Ice">HIELO</option>
+        <option value="Electric">ELECTRICO</option>
+        <option value="Dragon">DRAGON</option>
+        <option value="Ghost">FANTASMA</option>
+        <option value="Psychic">PSIQUICO</option>
+        <option value="Fighting">LUCHA</option>
+        <option value="Poison">VENENO</option>
+        <option value="Bug">BICHO</option>
+        <option value="Flying">VOLADOR</option>
+        <option value="Fairy">HADA</option>
+        <option value="Dark">SINIESTRO</option>
+        <option value="Steel">ACERO</option>
+      </select>
+      <select name="filtrar-huevos-km" id="filtrar-huevos-km" class="selectores">
+        <option>HUEVOS POR KM</option>
+        <option value="2 km">2 km</option>
+        <option value="5 km">5 km</option>
+        <option value="10 km">10 km</option>
+      </select>
+      <select name="OrdenAlfabetico" id="OrdenAlfabetico" class="selectores" >
+        <option>ORDENAR ALFABETICAMENTE</option>
+        <option value="A-Z">A-Z</option>
+        <option value="Z-A">Z-A</option>
+
+      </select>
+      <input id="buscar-por-nombre" type="text" placeholder="  Buscar Pokemon">
+  </header>
   <body>
     <div id="root"></div>
     <script type="module" src="main.js"></script>
-  </body>
+    <div id="datos-de-pokemon"></div>
+    <div class="miModal">
+      <div id="flex" class="flex">
+      </div>
+    </div>
+   <script src="main.js" type="module"></script>
+ </body>
+ <footer>KAREN PRODUCTIONS</footer>
 </html>
+
